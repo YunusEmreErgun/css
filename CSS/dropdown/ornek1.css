@@ -1,0 +1,49 @@
+ul {
+    background-color: gray;
+    list-style-type: none;
+    width: 100%;
+    margin-left: -10px;
+}
+
+ul li {
+
+    display: inline-block;
+    width: auto;
+    padding: 3px;
+    margin-left: -30px;
+    margin-right: 26px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+ul li:hover {
+    background-color: red;
+    transition: 0.3s;
+}
+
+i {
+    padding: 10px;
+    color: black;
+}
+
+#idSportScienceFaculty,
+#idSocialScienceFaculty,
+#idEngineeringFaculty,
+#idArchitectureFaculty {
+    position: absolute;
+    z-index: -1;
+    display: none;
+    margin-left: 6px;
+    margin-top: 1px;
+}
+
+.sportScienceFaculty:hover #idSportScienceFaculty,
+.socialScienceFaculty:hover #idSocialScienceFaculty,
+.architectureFaculty:hover #idArchitectureFaculty,
+.engineeringFaculty:hover #idEngineeringFaculty {
+    display: block;
+}

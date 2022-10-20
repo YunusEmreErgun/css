@@ -1,0 +1,68 @@
+table,
+th,
+td,
+tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#properties th {
+    background-color: rgb(156, 18, 18);
+    color: white;
+    text-align: center;
+}
+
+#properties tr:hover {
+    background-color: lightsalmon;
+}
+
+#properties td:hover {
+    background-color: lightblue;
+}
+
+i {
+    font-size: 15px;
+    color: darkgreen;
+}
+
+a {
+    font-size: 15px;
+
+    color: orange;
+}
+
+#properties tr:nth-child(3) {
+    background-color: rgb(24, 24, 150);
+    color: white;
+}
+
+#properties tr:nth-child(4) {
+    background-color: rgba(31, 252, 31, 0.63);
+    color: black;
+}
+
+#properties tr:nth-child(5) {
+    background-color: rgb(31, 252, 31, 0.63);
+    color: black;
+}
+
+#properties tr:nth-child(18) {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+#properties tr:nth-child(19) {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+#properties tr:nth-child(20) {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+#properties tr:nth-child(21) {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
